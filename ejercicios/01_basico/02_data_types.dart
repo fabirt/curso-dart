@@ -46,8 +46,20 @@ main() {
   villanos[1] = 'Red skull';
   villanos[2] = 'Doom';
 
-
   // ================= Sets =================
+  Set<String> villanos2 = {'Lex', 'Red skull', 'Doom'};
+  villanos2.add('Flash reverso');
 
   // ================= Mapas =================
+	Map<Object, String> ironman = {
+		'nombre': 'Tony Stark',
+		'poder'	: 'Inteligencia',
+		'edad'	:	'60',
+		10			: "Nivel de energia"
+	};
+
+	Map<String, dynamic> capitan = new Map();
+
+	capitan.addAll({ 'nombre': 'Steve', 'poder': 'No morir' });
+
 }
